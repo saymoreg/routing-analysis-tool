@@ -23,7 +23,7 @@ export default function RequestForm({ darkMode }) {
       data.json_input2 = JSON.parse(data.json_input2);
 
       const response = await axios.post(
-        "http://test-lemon-kappa.vercel.app/process_data",
+        "https://test-lemon-kappa.vercel.app/process_data",
         data
       );
       setJsonData(response.data);
