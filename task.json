@@ -1,0 +1,1761 @@
+{
+    "id": "6572955a475e476b15412378",
+    "line": "taxi_second_scooters",
+    "type": "chat",
+    "chat_type": "client",
+    "external_id": "6572955a59d89e63c71b2a3e",
+    "meta_info": {
+        "amount_charity": 0,
+        "app_version": "700.18.0",
+        "brand": "yandex",
+        "chat_in_omnichat": true,
+        "city": "almaty",
+        "complete_rides": 17,
+        "country": "kz",
+        "external_id": "6572955a59d89e63c71b2a3e",
+        "is_maas_order": false,
+        "is_newbie": true,
+        "lang": "ru",
+        "last_user_message_id": "1ed8c8f4384e4359ad7a2df3776c6a46",
+        "maas_subscription_applied": false,
+        "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+        "phone": "77785086223",
+        "phone_type": "yandex",
+        "processing": true,
+        "prom_on_order": false,
+        "service": "scooters",
+        "ticket_subject": "Депозит в начале поездки",
+        "user_application": "iphone",
+        "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+        "user_locale": "ru",
+        "user_phone": "+77785086223",
+        "user_phone_id": "626972300e3429fb405efdd2",
+        "user_phone_pd_id": "f85c32b064134359a0a332cb7775edb3",
+        "user_platform": "iphone",
+        "user_promocodes_count": 0,
+        "user_refund_count": 0,
+        "user_type": "general",
+        "user_uid": "1719578237",
+        "yandex_id_user_public_name": "Moldir Zhuman",
+        "yandex_uid": "1719578237",
+        "user_messages_count": 7,
+        "ml_request_id": "28bcdb628d954ac0a41799339fe8842e",
+        "task_language": "kk",
+        "antifraud_rules": [],
+        "scooters_order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+        "scooters_service": "yandex",
+        "scooters_tariff": "minutes_almaty",
+        "scooters_yandex_uid": "1719578237",
+        "scooters_zone": "almaty",
+        "source": "chat",
+        "status_before_assign": "reopened",
+        "currently_used_macro_ids": [
+            "240316",
+            "241487"
+        ],
+        "macro_id": "241487",
+        "chatterbox_button": "chatterbox_assign",
+        "check_autoreply_count": 4,
+        "theme_name": "Самокат:Вопросы платежей::Авторизация средств(холд)::Новый::Не вернули",
+        "themes_tree": [
+            "503457",
+            "503458",
+            "503460",
+            "640712"
+        ],
+        "user_city": "Алматы",
+        "ask_csat": false
+    },
+    "meta_to_show": [
+        {
+            "label": "ID пользователя",
+            "value": "c6bcc02f1e80414abd21675d7da61f2b"
+        },
+        {
+            "label": "Приложение",
+            "value": "iphone"
+        },
+        {
+            "label": "Количество возвратов юзера",
+            "value": "0"
+        },
+        {
+            "label": "Количество промокодов юзера",
+            "value": "0"
+        }
+    ],
+    "tags": [
+        "ar_fail",
+        "check_autoreply_project_taxi_scooters_dialog",
+        "check_ml_autoreply",
+        "ctsideas_508",
+        "foreign_lang",
+        "interval_users",
+        "lang_kk",
+        "newredpol",
+        "rd_scooters_payments_hold_new_not_returned",
+        "scooters_escalated_to_first",
+        "scooters_escalated_to_second",
+        "use_forward_autoreply",
+        "use_post_update_ml_routing",
+        "временный_ответ",
+        "интервал_кз",
+        "самокаты_ручной_л1"
+    ],
+    "history": [
+        {
+            "created": "2023-12-08T04:02:34+0000",
+            "line": "taxi_zeromass",
+            "action": "create",
+            "login": "superuser"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:35+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "app_version",
+                    "value": "700.18.0"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "complete_rides",
+                    "value": 17
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "is_newbie",
+                    "value": true
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "phone_type",
+                    "value": "yandex"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_id",
+                    "value": "c6bcc02f1e80414abd21675d7da61f2b"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_phone",
+                    "value": "+77785086223"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_phone_id",
+                    "value": "626972300e3429fb405efdd2"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_phone_pd_id",
+                    "value": "f85c32b064134359a0a332cb7775edb3"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_platform",
+                    "value": "iphone"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_promocodes_count",
+                    "value": 0
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_refund_count",
+                    "value": 0
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_type",
+                    "value": "general"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "yandex_uid",
+                    "value": "1719578237"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "yandex_id_user_public_name",
+                    "value": "Moldir Zhuman"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "amount_charity",
+                    "value": 0
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "prom_on_order",
+                    "value": false
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "is_maas_order",
+                    "value": false
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "maas_subscription_applied",
+                    "value": false
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_application",
+                    "value": "iphone"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_locale",
+                    "value": "ru"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "user_uid",
+                    "value": "1719578237"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "lang",
+                    "value": "ru"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "country",
+                    "value": "kz"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "service",
+                    "value": "scooters"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "ticket_subject",
+                    "value": "Депозит в начале поездки"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "brand",
+                    "value": "yandex"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "order_id",
+                    "value": "9d63f761-0141-454e-b961-2cd4f35c0df7"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "city",
+                    "value": "almaty"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "phone",
+                    "value": "77785086223"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "external_id",
+                    "value": "6572955a59d89e63c71b2a3e"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "b06960e7-4f08-47eb-85cc-e0c6f7835f98"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "processing",
+                    "value": true
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "chat_in_omnichat",
+                    "value": true
+                }
+            ],
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:35+0000",
+            "login": "superuser",
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "predispatch",
+            "tags_added": [
+                "foreign_lang",
+                "lang_kk"
+            ],
+            "created": "2023-12-08T04:02:35+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "task_language",
+                    "value": "kk"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "ml_request_id",
+                    "value": "28bcdb628d954ac0a41799339fe8842e"
+                }
+            ],
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "lang_kk"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "foreign_lang"
+                }
+            ],
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:35+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "antifraud_rules",
+                    "value": []
+                }
+            ],
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:35+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "scooters_order_id",
+                    "value": "9d63f761-0141-454e-b961-2cd4f35c0df7"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "scooters_service",
+                    "value": "yandex"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "scooters_zone",
+                    "value": "almaty"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "scooters_tariff",
+                    "value": "minutes_almaty"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "scooters_yandex_uid",
+                    "value": "1719578237"
+                }
+            ],
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "forward",
+            "new_line": "second_translate_kz_kg",
+            "in_addition": false,
+            "login": "superuser",
+            "action_id": "dfc0ee1b1bc2420aa485266a30640085",
+            "created": "2023-12-08T04:02:36+0000",
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "ensure_predispatched",
+            "created": "2023-12-08T04:02:36+0000",
+            "login": "superuser",
+            "line": "taxi_zeromass"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:58+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "source",
+                    "value": "chat"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "74950b8c70f54dda977216eb2779d505"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:58+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T04:02:58+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:58+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:02:58+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T04:02:59+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:04+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "e7c1d5d3bd7644a2b439e156346cf601"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:04+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T04:03:04+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:05+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:05+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T04:03:05+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "800d44bcc2e141ac9097c6654ffcdb02"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T04:03:09+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:19+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "90951bc22ce14f469df4a4fe0c3bdd28"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:19+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T04:03:19+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:20+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T04:03:20+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T04:03:20+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:04:20+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "ce4980436ae14f918792e46ad4c650ca"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:04:20+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T06:04:20+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:04:21+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:04:21+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T06:04:21+0000",
+            "login": "superuser",
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "take",
+            "login": "fatimy1108",
+            "in_addition": false,
+            "created": "2023-12-08T06:37:44+0000",
+            "latency": 0.061399,
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "comment": "Сәлеметсіз бе!\r\nӘріптестермен ақылдасып, ораламын 👌",
+            "in_addition": false,
+            "action": "communicate",
+            "action_id": "e5b14928050047deb55d5ee7e53074ea",
+            "external_id": "chatterbox:86ccd070-ef48-4741-9542-abab5bd60528:0",
+            "login": "fatimy1108",
+            "tags_added": [
+                "interval_users",
+                "newredpol",
+                "временный_ответ",
+                "интервал_кз"
+            ],
+            "hidden_comment": "каждый раз за самокат берете 500 тенге депозита и не возвращаете",
+            "macro_ids": [
+                "240316"
+            ],
+            "full_resolve": 9347,
+            "first_answer": 9347,
+            "first_answer_in_line": 9344,
+            "created": "2023-12-08T06:38:21+0000",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "interval_users"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "newredpol"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "временный_ответ"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "интервал_кз"
+                }
+            ],
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "macro_id",
+                    "value": "240316"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "currently_used_macro_ids",
+                    "value": [
+                        "240316"
+                    ]
+                }
+            ],
+            "latency": 36.687598,
+            "line": "second_translate_kz_kg",
+            "speed_answer_start": "2023-12-08T06:37:44+0000"
+        },
+        {
+            "action": "take",
+            "login": "fatimy1108",
+            "in_addition": false,
+            "created": "2023-12-08T06:38:22+0000",
+            "latency": 0.053525,
+            "line": "second_translate_kz_kg"
+        },
+        {
+            "action": "forward",
+            "new_line": "taxi_first_scooters",
+            "in_addition": false,
+            "login": "fatimy1108",
+            "action_id": "0da5988cb6e7486eab20e1773d0df891",
+            "query_params": {
+                "line": "taxi_first_scooters",
+                "additional_tag": "scooters_escalated_to_first",
+                "chatterbox_button": "chatterbox_taxi_first_scooters"
+            },
+            "tags_added": [
+                "scooters_escalated_to_first"
+            ],
+            "created": "2023-12-08T06:38:26+0000",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "scooters_escalated_to_first"
+                }
+            ],
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "chatterbox_button",
+                    "value": "chatterbox_taxi_first_scooters"
+                }
+            ],
+            "latency": 4.567881,
+            "line": "second_translate_kz_kg",
+            "online_chat_processing_start": "2023-12-08T06:38:22+0000"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:38:27+0000",
+            "login": "superuser",
+            "line": "taxi_first_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:38:28+0000",
+            "login": "superuser",
+            "line": "taxi_first_scooters"
+        },
+        {
+            "action": "update_meta",
+            "tags_added": [
+                "check_autoreply_project_taxi_scooters_dialog",
+                "check_ml_autoreply",
+                "use_forward_autoreply"
+            ],
+            "created": "2023-12-08T06:38:28+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "check_autoreply_project_taxi_scooters_dialog"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "check_ml_autoreply"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "use_forward_autoreply"
+                }
+            ],
+            "line": "taxi_first_scooters"
+        },
+        {
+            "action": "update_meta",
+            "tags_added": [
+                "ar_fail"
+            ],
+            "created": "2023-12-08T06:38:28+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "ar_fail"
+                }
+            ],
+            "line": "taxi_first_scooters"
+        },
+        {
+            "action": "take",
+            "login": "vmuravyova-b",
+            "in_addition": false,
+            "created": "2023-12-08T06:38:32+0000",
+            "latency": 0.036246,
+            "line": "taxi_first_scooters"
+        },
+        {
+            "action": "forward",
+            "new_line": "taxi_second_scooters",
+            "in_addition": false,
+            "login": "vmuravyova-b",
+            "action_id": "c057702d137247bcabc49554eacd8a40",
+            "query_params": {
+                "line": "taxi_second_scooters",
+                "additional_tag": "scooters_escalated_to_second",
+                "chatterbox_button": "chatterbox_taxi_second_scooters"
+            },
+            "tags_added": [
+                "scooters_escalated_to_second"
+            ],
+            "created": "2023-12-08T06:38:43+0000",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "scooters_escalated_to_second"
+                }
+            ],
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "chatterbox_button",
+                    "value": "chatterbox_taxi_second_scooters"
+                }
+            ],
+            "latency": 10.86057,
+            "line": "taxi_first_scooters",
+            "online_chat_processing_start": "2023-12-08T06:38:32+0000"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:38:43+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "take",
+            "login": "vmuravyova-b",
+            "in_addition": false,
+            "created": "2023-12-08T06:38:44+0000",
+            "latency": 0.069546,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:38:45+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "tags_added": [
+                "check_autoreply_project_taxi_scooters_dialog",
+                "check_ml_autoreply",
+                "use_forward_autoreply"
+            ],
+            "created": "2023-12-08T06:38:45+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "check_autoreply_project_taxi_scooters_dialog"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "check_ml_autoreply"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "use_forward_autoreply"
+                }
+            ],
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "take",
+            "login": "vmuravyova-b",
+            "in_addition": false,
+            "created": "2023-12-08T06:38:48+0000",
+            "latency": 0.073221,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "hidden_comment",
+            "in_addition": false,
+            "action_id": "06c22a5ca8974e10b74e1c1257633f93",
+            "login": "vmuravyova-b",
+            "hidden_comment": "уточняю на счет перевода макроса в чате самокатов",
+            "created": "2023-12-08T06:41:19+0000",
+            "meta_changes": [],
+            "latency": 150.909445,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "take",
+            "login": "vmuravyova-b",
+            "in_addition": false,
+            "created": "2023-12-08T06:41:19+0000",
+            "latency": 0.057713,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "defer",
+            "reopen_at": "2023-12-08T06:57:11+0000",
+            "in_addition": false,
+            "login": "vmuravyova-b",
+            "action_id": "3690904176d444cda2a1536879ba9f9d",
+            "query_params": {
+                "reopen_at": "2023-12-08T06:57:11+0000"
+            },
+            "created": "2023-12-08T06:42:22+0000",
+            "meta_changes": [],
+            "latency": 62.387068,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "reopen",
+            "login": "vmuravyova-b",
+            "created": "2023-12-08T06:47:30+0000",
+            "latency": 308.065656,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "assign",
+            "login": "vmuravyova-b",
+            "query_params": {
+                "new_user_status": "before-break",
+                "chatterbox_button": "chatterbox_assign",
+                "next_frontend_action": "take"
+            },
+            "created": "2023-12-08T06:47:32+0000",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "status_before_assign",
+                    "value": "reopened"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "chatterbox_button",
+                    "value": "chatterbox_assign"
+                }
+            ],
+            "latency": 1.96333,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "take",
+            "login": "vmuravyova-b",
+            "in_addition": false,
+            "created": "2023-12-08T06:47:36+0000",
+            "latency": 0.033795,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "close",
+            "in_addition": false,
+            "action_id": "375d930fa90748c4829cef9c1b58f781",
+            "comment": "Әрбір сапарда 500 ₸ депозит картаңызда ұстап қалуы мүмкін. Егер жол жүру бағасы ұсталған сомадан төмен болса, айырмашылық банк белгілеген мерзімде картада болады.\n\nТөлемді қайтару чектерін мына жолмен алуға болады:\n\n1. Қосымшада «Тапсырыс журналын» ашыңыз\n2. Қалаған сапарды таңдаңыз\n3. Төменгі жағында түбіртек жүктеп алыңыз",
+            "external_id": "chatterbox:df864998-4784-4e1e-8b22-e6fbc53e2a68:0",
+            "login": "vmuravyova-b",
+            "tags_added": [
+                "ctsideas_508",
+                "newredpol",
+                "rd_scooters_payments_hold_new_not_returned",
+                "самокаты_ручной_л1"
+            ],
+            "macro_ids": [
+                "241487"
+            ],
+            "full_resolve": 9347,
+            "first_answer_in_line": 627,
+            "created": "2023-12-08T06:49:12+0000",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "ctsideas_508"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "rd_scooters_payments_hold_new_not_returned"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "самокаты_ручной_л1"
+                }
+            ],
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "macro_id",
+                    "value": "241487"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "theme_name",
+                    "value": "Самокат:Вопросы платежей::Авторизация средств(холд)::Новый::Не вернули"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "themes_tree",
+                    "value": [
+                        503457,
+                        503458,
+                        503460,
+                        640712
+                    ]
+                }
+            ],
+            "latency": 95.568937,
+            "line": "taxi_second_scooters",
+            "online_chat_processing_start": "2023-12-08T06:47:36+0000",
+            "speed_answer_start": "2023-12-08T06:47:36+0000"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:57:53+0000",
+            "login": "superuser",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "user_city",
+                    "value": "Алматы"
+                },
+                {
+                    "change_type": "set",
+                    "field_name": "last_user_message_id",
+                    "value": "1ed8c8f4384e4359ad7a2df3776c6a46"
+                }
+            ],
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:57:54+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "reopen",
+            "created": "2023-12-08T06:57:54+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "enqueue_routing",
+            "created": "2023-12-08T06:57:54+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "use_post_update_ml_routing"
+                }
+            ],
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:57:55+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:57:55+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-08T06:57:57+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "tags_added": [
+                "check_autoreply_project_taxi_scooters_dialog",
+                "check_ml_autoreply"
+            ],
+            "created": "2023-12-08T06:57:57+0000",
+            "login": "superuser",
+            "tags_changes": [
+                {
+                    "change_type": "add",
+                    "tag": "check_autoreply_project_taxi_scooters_dialog"
+                },
+                {
+                    "change_type": "add",
+                    "tag": "check_ml_autoreply"
+                }
+            ],
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "finish_routing",
+            "created": "2023-12-08T06:57:58+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "take",
+            "login": "rx6010q",
+            "in_addition": false,
+            "created": "2023-12-08T06:58:05+0000",
+            "latency": 0.061655,
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "close",
+            "in_addition": false,
+            "action_id": "5ac2393d521947bbb53d7d2506bb7dfd",
+            "comment": "Түбіртектер айырмашылықтың сізге біздің тарапымыздан жіберілгенін ресми растау болып табылады. Әдетте ақша жүйе оны сақтайтын күні мұздатылады. Егер олар әлі қол жетімді болмаса, жазыңыз немесе банктік қолдау қызметіне қоңырау шалыңыз",
+            "external_id": "chatterbox:1192f3a4-8843-4d3e-b065-8b9b50f099ec:0",
+            "login": "rx6010q",
+            "tags_added": [
+                "ctsideas_508",
+                "newredpol",
+                "rd_scooters_payments_hold_new_not_returned",
+                "самокаты_ручной_л1"
+            ],
+            "hidden_comment": "- что делать после загрузки\n- обратиться в банк",
+            "macro_ids": [
+                "241487"
+            ],
+            "full_resolve": 9449,
+            "created": "2023-12-08T06:59:36+0000",
+            "tags_changes": [],
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "currently_used_macro_ids",
+                    "value": [
+                        "240316",
+                        "241487"
+                    ]
+                }
+            ],
+            "latency": 90.734847,
+            "line": "taxi_second_scooters",
+            "online_chat_processing_start": "2023-12-08T06:58:05+0000",
+            "speed_answer_start": "2023-12-08T06:58:05+0000"
+        },
+        {
+            "action": "close",
+            "created": "2023-12-09T07:54:07+0000",
+            "login": "superuser",
+            "hidden_comment": "Task 6572955a475e476b15412378 closed because source chat 6572955a59d89e63c71b2a3e is closed",
+            "meta_changes": [
+                {
+                    "change_type": "set",
+                    "field_name": "ask_csat",
+                    "value": false
+                }
+            ],
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-09T07:54:07+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        },
+        {
+            "action": "start_archive",
+            "created": "2023-12-09T10:21:07+0000",
+            "login": "superuser"
+        },
+        {
+            "action": "finish_archive",
+            "created": "2023-12-09T10:22:35+0000",
+            "login": "superuser"
+        },
+        {
+            "action": "update_meta",
+            "created": "2023-12-09T10:30:48+0000",
+            "login": "superuser",
+            "line": "taxi_second_scooters"
+        }
+    ],
+    "created": "2023-12-08T04:02:34+0000",
+    "updated": "2023-12-09T10:30:48+0000",
+    "status": "archived",
+    "hidden_comments": [
+        {
+            "comment": "каждый раз за самокат берете 500 тенге депозита и не возвращаете",
+            "login": "fatimy1108",
+            "created": "2023-12-08T06:38:21+0000"
+        },
+        {
+            "comment": "уточняю на счет перевода макроса в чате самокатов",
+            "login": "vmuravyova-b",
+            "created": "2023-12-08T06:41:19+0000"
+        },
+        {
+            "comment": "- что делать после загрузки\n- обратиться в банк",
+            "login": "rx6010q",
+            "created": "2023-12-08T06:59:36+0000"
+        },
+        {
+            "comment": "Task 6572955a475e476b15412378 closed because source chat 6572955a59d89e63c71b2a3e is closed",
+            "login": "superuser",
+            "created": "2023-12-09T07:54:07+0000"
+        }
+    ],
+    "comment_is_read_only": false,
+    "etag": "92",
+    "yarilo_line": "lines/e9edc539-3d41-4d6b-882b-e3b05faa2047",
+    "support_uid": "1120000000810372",
+    "state": "ARCHIVED",
+    "contacts": [
+        {
+            "client": {
+                "address": {
+                    "urn": "urn:yandex-support-chat:plain:626972300e3429fb405efdd2"
+                },
+                "entity": {
+                    "id": "urn:yandex-uid:1719578237",
+                    "name": "+77785086223",
+                    "tags": [
+                        "role_client"
+                    ]
+                }
+            },
+            "support": {
+                "address": {
+                    "urn": "urn:yandex-support-chat:plain:client_support_yandex"
+                }
+            }
+        }
+    ],
+    "omnichat_id": "chats/chatterbox:f90c587f-d499-45d7-b3fc-9d9d840ec049",
+    "reporter": null,
+    "support_alias": {
+        "name": "Костя: помощник в самокатных вопросах",
+        "avatar": "https://avatars.mds.yandex.net/get-chatterbox/10121006/1701332822927dN1QwG7qSUAH8RgsRp7rh/orig",
+        "personal": false
+    },
+    "operators": [
+        {
+            "uid": "1120000000800146"
+        },
+        {
+            "uid": "1120000000080409"
+        },
+        {
+            "uid": "1120000000483172"
+        },
+        {
+            "uid": "1120000000810372"
+        }
+    ],
+    "customers": [
+        {
+            "addresses": [
+                {
+                    "address": {
+                        "urn": "urn:yandex-support-chat:plain:626972300e3429fb405efdd2",
+                        "channel": "yandex-support-chat",
+                        "type": "plain",
+                        "id": "626972300e3429fb405efdd2",
+                        "display_name": "+77785086223"
+                    },
+                    "reply_addresses": [
+                        {
+                            "urn": "urn:yandex-support-chat:plain:client_support_yandex",
+                            "channel": "yandex-support-chat",
+                            "type": "plain",
+                            "id": "client_support_yandex",
+                            "display_name": "client_support_yandex"
+                        }
+                    ]
+                }
+            ],
+            "display_name": "",
+            "tags": [
+                "role_client"
+            ]
+        }
+    ],
+    "inboxes": null,
+    "resolution": "RESOLVED",
+    "sip_settings": {
+        "allow_call": true,
+        "allow_call_any_number": true
+    },
+    "ivr_settings": {
+        "allow_call": true,
+        "allow_call_any_number": true,
+        "polling_interval": 3000
+    },
+    "actions": [
+        {
+            "action_id": "reopen",
+            "query_params": {
+                "chatterbox_button": "chatterbox_reopen"
+            },
+            "title": "Переоткрыть",
+            "view": {
+                "position": "statusbar",
+                "type": "button"
+            }
+        },
+        {
+            "action_id": "assign",
+            "query_params": {
+                "new_user_status": "before-break",
+                "chatterbox_button": "chatterbox_assign",
+                "next_frontend_action": "take"
+            },
+            "title": "Назначить себе",
+            "view": {
+                "position": "statusbar",
+                "type": "button"
+            }
+        }
+    ],
+    "chat_messages": {
+        "messages": [
+            {
+                "id": "b06960e7-4f08-47eb-85cc-e0c6f7835f98",
+                "text": "Сәлеметсіз бе",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "created": "2023-12-08T04:02:34+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "74950b8c70f54dda977216eb2779d505",
+                "text": "Самокатқа әр мінген сайын 500тг депозит алады",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T04:02:57+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "e7c1d5d3bd7644a2b439e156346cf601",
+                "text": "Бірақ мүлде қайтармайды",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T04:03:03+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "800d44bcc2e141ac9097c6654ffcdb02",
+                "text": "Неге?",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T04:03:08+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "90951bc22ce14f469df4a4fe0c3bdd28",
+                "text": "Қалған сумманы қайтармайды",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T04:03:19+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "ce4980436ae14f918792e46ad4c650ca",
+                "text": "???",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "ticket_subject": "Депозит в начале поездки",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "city": "almaty",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T06:04:19+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "chatterbox:86ccd070-ef48-4741-9542-abab5bd60528:0",
+                "text": "Сәлеметсіз бе!\r\nӘріптестермен ақылдасып, ораламын 👌",
+                "metadata": {
+                    "created": "2023-12-08T06:38:21+0000"
+                },
+                "sender": {
+                    "id": "support",
+                    "role": "support",
+                    "sender_type": "support"
+                }
+            },
+            {
+                "id": "chatterbox:df864998-4784-4e1e-8b22-e6fbc53e2a68:0",
+                "text": "Әрбір сапарда 500 ₸ депозит картаңызда ұстап қалуы мүмкін. Егер жол жүру бағасы ұсталған сомадан төмен болса, айырмашылық банк белгілеген мерзімде картада болады.\n\nТөлемді қайтару чектерін мына жолмен алуға болады:\n\n1. Қосымшада «Тапсырыс журналын» ашыңыз\n2. Қалаған сапарды таңдаңыз\n3. Төменгі жағында түбіртек жүктеп алыңыз",
+                "metadata": {
+                    "created": "2023-12-08T06:49:11+0000"
+                },
+                "sender": {
+                    "id": "support",
+                    "role": "support",
+                    "sender_type": "support",
+                    "operator_name": "Саша: технический гуру самокатов",
+                    "operator_avatar": "https://avatars.mds.yandex.net/get-chatterbox/9599337/16968534947560JRxdJuJBkSXSllByPDfh/orig"
+                }
+            },
+            {
+                "id": "1ed8c8f4384e4359ad7a2df3776c6a46",
+                "text": "Жүктеп алғаннан соң не істеу керек ?",
+                "metadata": {
+                    "attachments": [],
+                    "user_id": "c6bcc02f1e80414abd21675d7da61f2b",
+                    "lang": "ru",
+                    "country": "kz",
+                    "service": "scooters",
+                    "user_city": "Алматы",
+                    "brand": "yandex",
+                    "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+                    "phone": "77785086223",
+                    "source": "chat",
+                    "created": "2023-12-08T06:57:53+0000"
+                },
+                "sender": {
+                    "id": "626972300e3429fb405efdd2",
+                    "role": "client",
+                    "sender_type": "client"
+                }
+            },
+            {
+                "id": "chatterbox:1192f3a4-8843-4d3e-b065-8b9b50f099ec:0",
+                "text": "Түбіртектер айырмашылықтың сізге біздің тарапымыздан жіберілгенін ресми растау болып табылады. Әдетте ақша жүйе оны сақтайтын күні мұздатылады. Егер олар әлі қол жетімді болмаса, жазыңыз немесе банктік қолдау қызметіне қоңырау шалыңыз",
+                "metadata": {
+                    "created": "2023-12-08T06:59:35+0000"
+                },
+                "sender": {
+                    "id": "support",
+                    "role": "support",
+                    "sender_type": "support",
+                    "operator_name": "Костя: помощник в самокатных вопросах",
+                    "operator_avatar": "https://avatars.mds.yandex.net/get-chatterbox/10121006/1701332822927dN1QwG7qSUAH8RgsRp7rh/orig"
+                }
+            }
+        ],
+        "total": 10,
+        "new_message_count": 0,
+        "newest_message_id": "chatterbox:1192f3a4-8843-4d3e-b065-8b9b50f099ec:0",
+        "metadata": {
+            "created": "2023-12-08T06:59:35+0000",
+            "updated": "2023-12-11T17:49:02+0000",
+            "last_message_from_user": false,
+            "new_messages": 0,
+            "user_locale": "ru",
+            "ticket_id": "YANDEXTAXI-327956386",
+            "ticket_status": "solved",
+            "ask_csat": false,
+            "chatterbox_id": "6572955a475e476b15412378",
+            "platform": "yandex",
+            "brand": "yandex",
+            "city": "almaty",
+            "country": "kz",
+            "lang": "ru",
+            "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+            "phone": "77785086223",
+            "phone_type": "yandex",
+            "service": "scooters",
+            "ticket_subject": "Депозит в начале поездки",
+            "user_phone_id": "626972300e3429fb405efdd2",
+            "user_uid": "1719578237"
+        },
+        "participants": [
+            {
+                "id": "support",
+                "role": "support",
+                "avatar_url": "5",
+                "nickname": "Алихан"
+            },
+            {
+                "id": "626972300e3429fb405efdd2",
+                "is_owner": true,
+                "role": "client",
+                "platform": "yandex"
+            }
+        ]
+    },
+    "orders_links": [
+        {
+            "links": [
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin/9d63f761-0141-454e-b961-2cd4f35c0df7/main-information?orderId=9d63f761-0141-454e-b961-2cd4f35c0df7",
+                        "label": "Scooters 2.0",
+                        "iframe_url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin/9d63f761-0141-454e-b961-2cd4f35c0df7/main-information?orderId=9d63f761-0141-454e-b961-2cd4f35c0df7"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin?telephoneNumber=%2B77785086223",
+                        "label": "Scooters 2.0 Все заказы"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin?telephoneNumber=%2B77785086223&backendScooterTag=jet",
+                        "label": "Юрент 2.0 Все заказы",
+                        "iframe_url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin?telephoneNumber=%2B77785086223&backendScooterTag=jet"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://scooters.yandex-team.ru/#/session/9d63f761-0141-454e-b961-2cd4f35c0df7/billing",
+                        "label": "Драйв",
+                        "iframe_url": "https://scooters.yandex-team.ru/#/session/9d63f761-0141-454e-b961-2cd4f35c0df7/billing"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/orders?phone=%2B77785086223&__chatterbox_id=6572955a475e476b15412378",
+                        "label": "Все заказы (Такси)",
+                        "iframe_url": "https://external-admin-proxy.taxi.yandex-team.ru/orders?phone=%2B77785086223&__chatterbox_id=6572955a475e476b15412378"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/payments?phone=%2B77785086223",
+                        "label": "Все платежи(Такси)"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/logs?order_id=9d63f761-0141-454e-b961-2cd4f35c0df7",
+                        "label": "Логи"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://supchat.taxi.yandex-team.ru/chat?user_phone=%2B77785086223",
+                        "label": "Обращения по т/ф"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://supchat.taxi.yandex-team.ru/chat?order_id=9d63f761-0141-454e-b961-2cd4f35c0df7",
+                        "label": "Обращения по заказу"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/logs?user_phone=%2B77785086223&logs_source=new_logs",
+                        "label": "Логи по т/ф"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/logs/?user_phone=%2B77785086223&type=launch&type=email&type=scooters-offers-book&logs_source=new_logs",
+                        "label": "Проверка логов НС"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/promocodes-support/for-passengers?phone=%2B77785086223&ticket_id=6572955a475e476b15412378&user_phone=%2B77785086223&application_platform=iphone",
+                        "label": "Промокоды по т/ф"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/108058/?ticket_id=6572955a475e476b15412378",
+                        "label": "Багхантеры 2.0",
+                        "iframe": true,
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/108058/?ticket_id=6572955a475e476b15412378"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/76494/?answer_short_text_672622=https://supchat.taxi.yandex-team.ru/chat/6572955a475e476b15412378",
+                        "label": "Релокация Я Go",
+                        "iframe": true,
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/76494/?answer_short_text_672622=https://supchat.taxi.yandex-team.ru/chat/6572955a475e476b15412378"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://datalens.yandex-team.ru/b1dar0fjrtji1-bugtracker?state=4e0a0d60137",
+                        "label": "Багтрекер"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/23436/",
+                        "label": "Сброс в паспорте",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/23436/"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/suspensed-transactions/invoices?service=transactions-ng&id_namespace=scooters&id=9d63f761-0141-454e-b961-2cd4f35c0df7",
+                        "label": "Транзакции",
+                        "iframe_url": "https://external-admin-proxy.taxi.yandex-team.ru/suspensed-transactions/invoices?service=transactions-ng&id_namespace=scooters&id=9d63f761-0141-454e-b961-2cd4f35c0df7"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/110663/?answer_choices_1129295=1781908&answer_choices_1062596=1674754&answer_choices_1062598=1674790&answer_short_text_683572=Такси&answer_long_text_648393=6572955a475e476b15412378",
+                        "label": "Форма для отвязки карты",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/110663/?answer_choices_1129295=1781908&answer_choices_1062596=1674754&answer_choices_1062598=1674790&answer_short_text_683572=Такси&answer_long_text_648393=6572955a475e476b15412378"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://supchat.taxi.yandex-team.ru/chat?order_id=9d63f761-0141-454e-b961-2cd4f35c0df7",
+                        "label": "Обращения по заказу"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/passengers2?phone=%2B77785086223",
+                        "label": "Пассажиры 2.0"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://scooters.yandex-team.ru/#/",
+                        "label": "Админка самокатов"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/114586/",
+                        "label": "Поломки Я Go",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/114586/"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/154450/?answer_choices_1636815=2693197",
+                        "label": "Добавить/удалить парковку",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/154450/?answer_choices_1636815=2693197"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin?backendScooterTag=yandex&userUId=1719578237",
+                        "label": "Заказы по UID",
+                        "iframe_url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin?backendScooterTag=yandex&userUId=1719578237"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/148216/",
+                        "label": "Форма для предложений",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/148216/"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://forms.yandex-team.ru/surveys/27881?answer_short_text_73023=1719578237&answer_short_text_212739=77785086223&answer_url_334306=https://supchat.taxi.yandex-team.ru/chat/6572955a475e476b15412378&answer_choices_356815=2714156",
+                        "label": "Blacklisted",
+                        "iframe_url": "https://forms.yandex-team.ru/surveys/27881?answer_short_text_73023=1719578237&answer_short_text_212739=77785086223&answer_url_334306=https://supchat.taxi.yandex-team.ru/chat/6572955a475e476b15412378&answer_choices_356815=2714156"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin-users?phoneNumber=%2B77785086223",
+                        "label": "Пользователи Scooters Admin"
+                    }
+                ],
+                [
+                    {
+                        "url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin-map",
+                        "label": "Карта самокатов"
+                    }
+                ]
+            ],
+            "order_id": "9d63f761-0141-454e-b961-2cd4f35c0df7",
+            "default_url": "https://external-admin-proxy.taxi.yandex-team.ru/scooters-admin/9d63f761-0141-454e-b961-2cd4f35c0df7/main-information?orderId=9d63f761-0141-454e-b961-2cd4f35c0df7"
+        }
+    ],
+    "chats": [
+        {
+            "id": "chats/chatterbox:f90c587f-d499-45d7-b3fc-9d9d840ec049",
+            "readonly": true,
+            "createdAt": "2023-12-08T04:02:34+0000"
+        }
+    ]
+}

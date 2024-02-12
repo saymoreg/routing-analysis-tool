@@ -1,0 +1,69 @@
+{
+    "conditions": {
+        "#or": [
+            {
+                "tags": {
+                    "#in": [
+                        "lang_kk",
+                        "cc_user_language_kazakh"
+                    ],
+                    "#nin": [
+                        "callback_driver_request",
+                        "form_sup_13588_urg",
+                        "form_sup_13588_lost",
+                        "form_10020064"
+                    ]
+                },
+                "fields/scooters_order_id": {
+                    "#exists": false
+                }
+            },
+            {
+                "fields/task_language": {
+                    "#in": [
+                        "kk"
+                    ]
+                },
+                "tags": {
+                    "#in": [
+                        "corp_10833685"
+                    ]
+                }
+            }
+        ],
+        "tags": {
+            "#nin": [
+                "forward_to_taxi_sort_41676"
+            ]
+        },
+        "fields/service": {
+            "#nin": [
+                "music"
+            ]
+        },
+        "type": {
+            "#in": [
+                "client",
+                "sms",
+                "startrack",
+                "opteum",
+                "safety_center",
+                "driver"
+            ]
+        }
+    },
+    "name": "2 · Перевод · КЗ · КГ",
+    "priority": 6,
+    "sort_order": -1,
+    "themes_style": "tree",
+    "title_tanker": "lines.second_translate_kz_kg",
+    "types": [
+        "client",
+        "sms",
+        "startrack",
+        "driver",
+        "opteum",
+        "safety_center",
+        "corp"
+    ]
+}
